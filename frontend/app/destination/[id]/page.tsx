@@ -33,7 +33,7 @@ export default function DestinationPage() {
         return (
             <div className="min-h-screen flex items-center justify-center flex-col gap-4">
                 <h1 className="text-2xl font-bold">Destination Not Found</h1>
-                <p className="text-gray-500">We couldn't find "{slug}" in our database.</p>
+                <p className="text-gray-500">We couldn&apos;t find "{slug}" in our database.</p>
                 <Button onClick={() => router.push("/")}>Go Home</Button>
             </div>
         );

@@ -76,8 +76,8 @@ export default function AboutPage() {
               Who We Are
             </h2>
             <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed text-base">
-              Born out of a deep reverence for the subcontinent's unmatched diversity, YatraIndia simplifies complex itineraries into elegant, intuitive discoveries. From the frozen high-altitude lakes of Ladakh to the serene emerald backwaters of Kerala, we believe every coordinate tells an ancient story.
-            </p>
+  Born out of a deep reverence for the subcontinent&apos;s unmatched diversity, YatraIndia simplifies complex itineraries into elegant, intuitive discoveries.
+</p>
             <p className="text-zinc-600 dark:text-zinc-400 leading-relaxed text-base">
               Whether you are looking for architectural marvels of ancient dynasties, raw Himalayan adrenaline splits, or pristine beach islands, our ecosystem empowers you with local context, crowd densities, and optimal weather analytics.
             </p>

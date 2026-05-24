@@ -40,8 +40,9 @@ export default function HelpCenterPage() {
                 {/* Direct Contact CTA */}
                 <div className="p-8 bg-orange-50 dark:bg-zinc-900 border border-orange-100 dark:border-zinc-800 rounded-3xl text-center">
                     <h3 className="text-xl font-bold mb-2 text-zinc-900 dark:text-zinc-100">Still have queries?</h3>
-                    <p className="text-zinc-600 dark:text-zinc-400 mb-6">Drop our development support cell an inquiry string, and we'll reply shortly.</p>
-                    <div className="flex flex-col sm:flex-row justify-center gap-4">
+<p className="text-zinc-600 dark:text-zinc-400 mb-6">
+  Drop our development support cell an inquiry string, and we&apos;ll reply shortly.
+</p>                    <div className="flex flex-col sm:flex-row justify-center gap-4">
                         <Button className="bg-orange-600 hover:bg-orange-700 text-white rounded-xl gap-2 font-semibold">
                             <Mail className="w-4 h-4" /> Email Help Desk
                         </Button>
