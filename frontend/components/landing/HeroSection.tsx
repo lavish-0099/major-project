@@ -11,7 +11,6 @@ export function HeroSection() {
     return (
         <div className="relative min-h-[110vh] w-full flex flex-col items-center justify-center overflow-hidden pt-32 pb-40 md:pb-48">
             {/* Background Image */}
-            {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-white/90 z-10" />
                 <Image
@@ -26,16 +25,19 @@ export function HeroSection() {
 
             <div className="relative z-20 flex flex-col items-center text-center px-4 max-w-5xl mx-auto w-full">
 
+                {/* --- CONNECTED FEATURED BUBBLES --- */}
                 <div className="flex items-center justify-center gap-3 md:gap-6 mb-8 md:mb-12 perspective-1000">
                     {[
-                        { name: "Ladakh", img: "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?q=80&w=500&auto=format&fit=crop" },
-                        { name: "Jaipur", img: "https://images.unsplash.com/photo-1603262110263-fb0112e7cc33?q=80&w=500&auto=format&fit=crop" },
-                        { name: "Kerala", img: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?q=80&w=500&auto=format&fit=crop" }
+                        { id: 9, name: "Ladakh", img: "/Tourism/Leh Ladakh (Ladakh).jpeg" },
+                        { id: 18, name: "Jaipur", img: "/Tourism/Amer Fort(Jaipur, Rajasthan).jpeg" },
+                        { id: 38, name: "Kerala", img: "/Tourism/Munnar Tea Gardens (Kerala).jpeg" }
                     ].map((place, i) => (
                         <div
                             key={place.name}
-                            onClick={() => router.push(`/destination/${place.name.toLowerCase()}`)}
-                            className={`relative group w-20 h-20 md:w-32 md:h-32 rounded-2xl md:rounded-3xl overflow-hidden glass-card p-1 transition-transform duration-500 hover:-translate-y-2 cursor-pointer ${i === 1 ? 'scale-110 z-10' : 'scale-90 opacity-90 hover:opacity-100'}`}
+                            onClick={() => router.push(`/destination/${place.id}`)}
+                            className={`relative group w-20 h-20 md:w-32 md:h-32 rounded-2xl md:rounded-3xl overflow-hidden glass-card p-1 transition-transform duration-500 hover:-translate-y-2 cursor-pointer ${
+                                i === 1 ? 'scale-110 z-10' : 'scale-90 opacity-90 hover:opacity-100'
+                            }`}
                         >
                             <div className="w-full h-full rounded-xl md:rounded-2xl overflow-hidden relative">
                                 <Image
@@ -71,7 +73,10 @@ export function HeroSection() {
                     >
                         Plan My Trip
                     </Button>
-                    <Button className="w-full sm:w-auto h-12 md:h-14 px-8 rounded-full bg-white text-black hover:bg-gray-100 border border-white hover:shadow-[0_0_20px_rgba(255,255,255,0.6)] text-base md:text-lg font-medium transition-all duration-300 hover:scale-105 group relative overflow-hidden shadow-lg">
+                    <Button 
+                        onClick={() => router.push("/destination")}
+                        className="w-full sm:w-auto h-12 md:h-14 px-8 rounded-full bg-white text-black hover:bg-gray-100 border border-white hover:shadow-[0_0_20px_rgba(255,255,255,0.6)] text-base md:text-lg font-medium transition-all duration-300 hover:scale-105 group relative overflow-hidden shadow-lg"
+                    >
                         <span className="relative z-10 flex items-center gap-2">
                             Explore Destinations
                             <Search className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

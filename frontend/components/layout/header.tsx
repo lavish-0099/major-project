@@ -33,7 +33,7 @@ export function Header() {
                         Plan Trip
                     </Link>
                     <Link
-                        href="#"
+                        href="/about"
                         className="text-sm font-medium text-white/90 px-5 py-2 rounded-full hover:bg-white/10 transition-all duration-300"
                     >
                         About

@@ -13,14 +13,14 @@ export interface Destination {
 
 export const ALL_DESTINATIONS: Destination[] = [
   // --- TEMPLES & SPIRITUAL ---
-  { id: 1, title: "Meenakshi Temple", location: "Madurai, Tamil Nadu", rating: "4.9", reviews: "28k", season: "Oct - Mar", image: "/Tourism/Meenakshi Temple(Madurai, Tamil Nadu).jpeg", category: "Temples", crowd: "High", crowdColor: "bg-red-500" },
-  { id: 2, title: "Golden Temple", location: "Amritsar, Punjab", rating: "5.0", reviews: "45k", season: "Sep - Mar", image: "/Tourism/Golden Temple(Amritsar, Punjab).jpeg", category: "Temples", crowd: "High", crowdColor: "bg-red-500" },
-  { id: 3, title: "Kedarnath Temple", location: "Uttarakhand", rating: "4.9", reviews: "15k", season: "May - Oct", image: "/Tourism/Kedarnath Temple(Uttarakhand).jpeg", category: "Temples", crowd: "High", crowdColor: "bg-red-500" },
-  { id: 4, title: "Konark Sun Temple", location: "Odisha", rating: "4.7", reviews: "12k", season: "Sep - Mar", image: "/Tourism/Konark Sun Temple(Odisha).jpeg", category: "Temples", crowd: "Medium", crowdColor: "bg-yellow-500" },
+  { id: 1, title: "Meenakshi Temple", location: "Madurai, Tamil Nadu", rating: "4.9", reviews: "28k", season: "Oct - Mar", image: "/Tourism/Meenakshi Temple(Madurai, Tamil Nadu).jpg", category: "Temples", crowd: "High", crowdColor: "bg-red-500" },
+  { id: 2, title: "Golden Temple", location: "Amritsar, Punjab", rating: "5.0", reviews: "45k", season: "Sep - Mar", image: "/Tourism/Golden Temple(Amritsar, Punjab).jpg", category: "Temples", crowd: "High", crowdColor: "bg-red-500" },
+  { id: 3, title: "Kedarnath Temple", location: "Uttarakhand", rating: "4.9", reviews: "15k", season: "May - Oct", image: "/Tourism/Kedarnath Temple (Uttarakhand).jpg", category: "Temples", crowd: "High", crowdColor: "bg-red-500" },
+  { id: 4, title: "Konark Sun Temple", location: "Odisha", rating: "4.7", reviews: "12k", season: "Sep - Mar", image: "/Tourism/Konark Sun Temple(Odisha).jpg", category: "Temples", crowd: "Medium", crowdColor: "bg-yellow-500" },
   { id: 5, title: "Varanasi Ghats", location: "Uttar Pradesh", rating: "4.8", reviews: "38k", season: "Nov - Feb", image: "/Tourism/Varanasi Ghats(Uttar Pradesh).jpeg", category: "Heritage", crowd: "High", crowdColor: "bg-red-500" },
   { id: 6, title: "Brihadisvara Temple", location: "Thanjavur, TN", rating: "4.9", reviews: "9k", season: "Oct - Mar", image: "/Tourism/Brihadisvara Temple (Thanjavur, Tamil Nadu).jpg", category: "Temples", crowd: "Medium", crowdColor: "bg-yellow-500" },
   { id: 7, title: "Akshardham", location: "Delhi", rating: "4.8", reviews: "31k", season: "Oct - Mar", image: "/Tourism/Akshardham(Delhi).jpg", category: "Temples", crowd: "High", crowdColor: "bg-red-500" },
-  { id: 8, title: "Sanchi Stupa", location: "Madhya Pradesh", rating: "4.8", reviews: "8k", season: "Nov - Mar", image: "/Tourism/Sanchi Stupa (Madhya Pradesh).jpeg", category: "Temples", crowd: "Low", crowdColor: "bg-green-500" },
+  { id: 8, title: "Sanchi Stupa", location: "Madhya Pradesh", rating: "4.8", reviews: "8k", season: "Nov - Mar", image: "/Tourism/Sanchi Stupa (Madhya Pradesh).jpg", category: "Temples", crowd: "Low", crowdColor: "bg-green-500" },
 
   // --- ADVENTURE & MOUNTAINS ---
   { id: 9, title: "Leh Ladakh", location: "Ladakh", rating: "4.8", reviews: "3k", season: "Jun - Sep", image: "/Tourism/Leh Ladakh (Ladakh).jpeg", category: "Adventure", crowd: "Low", crowdColor: "bg-green-500" },
@@ -72,7 +72,7 @@ export const ALL_DESTINATIONS: Destination[] = [
 
   // --- FESTIVALS & CULTURE ---
   { id: 47, title: "Pushkar Fair", location: "Rajasthan", rating: "4.7", reviews: "9k", season: "November", image: "/Tourism/Pushkar Fair (Rajasthan).jpeg", category: "Festivals", crowd: "High", crowdColor: "bg-red-500" },
-  { id: 48, title: "Rann of Kutch", location: "Gujarat", rating: "4.8", reviews: "13k", season: "Nov - Feb", image: "/Tourism/Rann of Kutch(Gujarat).jpeg", category: "Festivals", crowd: "Medium", crowdColor: "bg-yellow-500" },
-  { id: 49, title: "Durga Puja", location: "Kolkata", rating: "4.9", reviews: "50k", season: "October", image: "/Tourism/Durga Puja(Kolkata, West Bengal).jpeg", category: "Festivals", crowd: "High", crowdColor: "bg-red-500" },
+  { id: 48, title: "Rann of Kutch", location: "Gujarat", rating: "4.8", reviews: "13k", season: "Nov - Feb", image: "/Tourism/Rann of Kutch(Gujarat).jpg", category: "Festivals", crowd: "Medium", crowdColor: "bg-yellow-500" },
+  { id: 49, title: "Durga Puja", location: "Kolkata", rating: "4.9", reviews: "50k", season: "October", image: "/Tourism/Durga Puja(Kolkata, West Bengal).jpg", category: "Festivals", crowd: "High", crowdColor: "bg-red-500" },
   { id: 50, title: "Jaisalmer Sam Dunes", location: "Rajasthan", rating: "4.8", reviews: "15k", season: "Nov - Feb", image: "/Tourism/Jaisalmer Sam Dunes (Rajasthan).jpeg", category: "Adventure", crowd: "Medium", crowdColor: "bg-yellow-500" },
 ];
