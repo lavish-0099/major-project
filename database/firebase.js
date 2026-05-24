@@ -4,13 +4,12 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAwUB-qVNQKLV55O9Q4SJVycD1rM04K6gs",
-  authDomain: "bhart-yatra.firebaseapp.com",
-  projectId: "bhart-yatra",
-  storageBucket: "bhart-yatra.firebasestorage.app",
-  messagingSenderId: "678608618061",
-  appId: "1:678608618061:web:57a50ae4c2cb3c64271204",
-  measurementId: "G-QLLMYF0VHH"
+  apiKey: "AIzaSyCsH93sMxB-4WUBaJwF4dfQ6HsIGCfCchk",
+  authDomain: "yatraindia-final.firebaseapp.com",
+  projectId: "yatraindia-final",
+  storageBucket: "yatraindia-final.firebasestorage.app",
+  messagingSenderId: "171649831585",
+  appId: "1:171649831585:web:c55e3053aa85f11895d6e0"
 };
 
 // Initialize Firebase
